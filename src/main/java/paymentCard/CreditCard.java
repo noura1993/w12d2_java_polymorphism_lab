@@ -1,9 +1,8 @@
 package paymentCard;
 
 public class CreditCard extends PaymentCard{
+    public CreditCard(long cardNumber, String expiryDate, int securityNumber, double transactionCostRate) {
+        super(cardNumber, expiryDate, securityNumber, transactionCostRate);
+    }
 }
 
-// public void charge(double purchaseAmount) {
-//     // credit card specific code
-//     super.charge(purchaseAmount);
-// }
