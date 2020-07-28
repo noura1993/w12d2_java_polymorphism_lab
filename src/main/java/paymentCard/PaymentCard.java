@@ -2,7 +2,7 @@ package paymentCard;
 
 import java.util.ArrayList;
 
-public abstract class PaymentCard implements IChargeable {
+public abstract class PaymentCard implements ICharge {
 
     private long cardNumber;
     private String expiryDate;

@@ -1,6 +1,6 @@
 package paymentCard;
 
-public interface IChargeable {
+public interface ICharge {
     double getTransactionCost(double purchaseAmount);
     void charge(double purchaseAmount);
 }

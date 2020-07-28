@@ -9,7 +9,7 @@ An online retailer wants you to model an `OnlineAccount` used by them to charge 
 <hr>
 
 - Perhaps some of these cards could inherit from a `paymentCard.PaymentCard`?    
-- In order to have the flexibility to charge, log transactions (via `ReportingSoftware`), and store a list of these different types of card there should be a `paymentCard.IChargeable` Interface that your classes `implement`
+- In order to have the flexibility to charge, log transactions (via `ReportingSoftware`), and store a list of these different types of card there should be a `paymentCard.ICharge` Interface that your classes `implement`
 - TDD a solution. Making a class diagram would be a useful planning exercise.
 
 <hr>
@@ -17,7 +17,7 @@ An online retailer wants you to model an `OnlineAccount` used by them to charge 
 <details>
     <summary>We need more help! (Click the arrow!)</summary>
     
-### paymentCard.IChargeable
+### paymentCard.ICharge
 
 ```java
     double getTransactionCost(double purchaseAmount);
@@ -25,7 +25,7 @@ An online retailer wants you to model an `OnlineAccount` used by them to charge 
 ```
 
 ### paymentCard.PaymentCard
-#### Abstract class `implements paymentCard.IChargeable`
+#### Abstract class `implements paymentCard.ICharge`
 - `cardNumber`
 - `expiryDate`
 - `securityNumber`
@@ -49,7 +49,7 @@ An online retailer wants you to model an `OnlineAccount` used by them to charge 
 - Charging has no implementation (left to superclass)
 
 ### paymentCard.GiftCard
-#### Concrete class - no Superclass, `implements paymentCard.IChargeable`
+#### Concrete class - no Superclass, `implements paymentCard.ICharge`
 - `vendor`
 - `balance`
 
