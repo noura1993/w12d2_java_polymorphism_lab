@@ -6,7 +6,7 @@ public class DebitCard extends PaymentCard{
   private int accountNumber;
 
   public DebitCard(long cardNumber, String expiryDate, int securityNumber, int sortCode, int accountNumber) {
-    super(cardNumber, expiryDate, securityNumber, 0.01);
+    super(cardNumber, expiryDate, securityNumber);
     this.sortCode = sortCode;
     this.accountNumber = accountNumber;
   }
@@ -18,5 +18,9 @@ public class DebitCard extends PaymentCard{
 
   public int getAccountNumber() {
     return this.accountNumber;
+  }
+
+  public double getTransactionCost(double purchaseAmount) {
+    return purchaseAmount * 0.01;
   }
 }

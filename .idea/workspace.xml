@@ -20,14 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f18add0-de92-43a2-94c7-cd049eee149b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/paymentCard/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentCard/CreditCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/paymentCard/DebitCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentCard/DebitCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/paymentCard/GiftCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentCard/GiftCard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/paymentCard/PaymentCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/paymentCard/PaymentCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/paymentCard/DebitCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/paymentCard/DebitCardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/paymentCard/CreditCardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/paymentCard/CreditCardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,22 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CreditCardTest">
+    <configuration name="CreditCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="w12d2_java_polymorphism_lab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="paymentCard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="paymentCard" />
+      <option name="MAIN_CLASS_NAME" value="paymentCard.CreditCardTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DebitCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="w12d2_java_polymorphism_lab" />
       <extension name="coverage">
@@ -105,6 +117,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreditCardTest" />
         <item itemvalue="JUnit.DebitCardTest" />
       </list>
     </recent_temporary>
@@ -138,13 +151,33 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1047" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1595970496033">
+    <state x="1047" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1595971589079">
       <screen x="0" y="23" width="1920" height="1000" />
     </state>
-    <state x="1047" y="245" key="#com.intellij.ide.util.MemberChooser/-1440.203.1440.877/0.23.1920.1000@0.23.1920.1000" timestamp="1595970496033" />
-    <state x="1013" y="343" width="535" height="516" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595969068532">
+    <state x="1047" y="245" key="#com.intellij.ide.util.MemberChooser/-1440.203.1440.877/0.23.1920.1000@0.23.1920.1000" timestamp="1595971589079" />
+    <state width="1330" height="271" key="GridCell.Tab.0.bottom" timestamp="1595970602016">
       <screen x="0" y="23" width="1920" height="1000" />
     </state>
-    <state x="1013" y="343" width="535" height="516" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1440.203.1440.877/0.23.1920.1000@0.23.1920.1000" timestamp="1595969068532" />
+    <state width="1330" height="271" key="GridCell.Tab.0.bottom/-1440.203.1440.877/0.23.1920.1000@0.23.1920.1000" timestamp="1595970602016" />
+    <state width="1330" height="271" key="GridCell.Tab.0.center" timestamp="1595970602013">
+      <screen x="0" y="23" width="1920" height="1000" />
+    </state>
+    <state width="1330" height="271" key="GridCell.Tab.0.center/-1440.203.1440.877/0.23.1920.1000@0.23.1920.1000" timestamp="1595970602013" />
+    <state width="1330" height="271" key="GridCell.Tab.0.left" timestamp="1595970602012">
+      <screen x="0" y="23" width="1920" height="1000" />
+    </state>
+    <state width="1330" height="271" key="GridCell.Tab.0.left/-1440.203.1440.877/0.23.1920.1000@0.23.1920.1000" timestamp="1595970602012" />
+    <state width="1330" height="271" key="GridCell.Tab.0.right" timestamp="1595970602015">
+      <screen x="0" y="23" width="1920" height="1000" />
+    </state>
+    <state width="1330" height="271" key="GridCell.Tab.0.right/-1440.203.1440.877/0.23.1920.1000@0.23.1920.1000" timestamp="1595970602015" />
+    <state x="1013" y="343" width="535" height="516" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1595970779125">
+      <screen x="0" y="23" width="1920" height="1000" />
+    </state>
+    <state x="1013" y="343" width="535" height="516" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1440.203.1440.877/0.23.1920.1000@0.23.1920.1000" timestamp="1595970779125" />
+    <state x="899" y="243" width="670" height="676" key="search.everywhere.popup" timestamp="1595971576900">
+      <screen x="0" y="23" width="1920" height="1000" />
+    </state>
+    <state x="899" y="243" width="670" height="676" key="search.everywhere.popup/-1440.203.1440.877/0.23.1920.1000@0.23.1920.1000" timestamp="1595971576900" />
   </component>
 </project>

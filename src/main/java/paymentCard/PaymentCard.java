@@ -8,14 +8,12 @@ public abstract class PaymentCard implements IChargeable {
     private String expiryDate;
     private int securityNumber;
     private ArrayList<Double> charges;
-    private double transactionCostRate;
 
-    public PaymentCard(long cardNumber, String expiryDate, int securityNumber, double transactionCostRate) {
+    public PaymentCard(long cardNumber, String expiryDate, int securityNumber) {
         this.cardNumber = cardNumber;
         this.expiryDate = expiryDate;
         this.securityNumber = securityNumber;
         this.charges = new ArrayList<Double>();
-        this.transactionCostRate = transactionCostRate;
     }
 
     public long getCardNumber() {
@@ -28,10 +26,6 @@ public abstract class PaymentCard implements IChargeable {
 
     public int getSecurityNumber() {
         return this.securityNumber;
-    }
-
-    public double getTransactionCost(double purchaseAmount) {
-        return purchaseAmount * this.transactionCostRate;
     }
 
     public ArrayList<Double> getCharges() {
